@@ -1,0 +1,114 @@
+aside{
+    width: 15%;
+    height: 100vh;
+    background-color: white;
+    top: 50px;
+    overflow: scroll;
+    overflow-y:scroll
+   
+}
+nav span, nav svg{
+    display: inline-block;
+}
+nav{
+    height: 50px;
+    top: 0;
+    background-color: white;
+}
+.logo{
+    width: 5%;
+}
+main{
+    margin: 50px 0 0 15%;
+    width: 85%;
+    height: 100vh;
+    background-color: white;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    width: 22%;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.position-fixed{
+    position: fixed;
+}
+.w-100{
+    width: 100%;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m{
+    margin: 20px;
+}
+nav i{
+    font-size: 3ch;
+    font-weight: lighter;
+   
+}
+nav button{
+    padding:  8px 30px;
+    background-color: white;
+    color: blue;
+    border: 0.3ch solid blue;
+  
+}
+nav button:hover{
+    background-color: blue;
+    color: white;
+}
+
+nav input{
+  padding: 9px 250px;
+  font-size: 2ch;
+  font-family: sans-serif;
+  float: left;
+  border: 0.1ch solid silver;
+}
+
+  .main-btns{
+    width: 80%;
+    height: 20px;
+    margin-bottom: 70px;
+    margin-right: 120px;
+    
+  }
+  .m-btns{
+    margin:  5px 60px 5px 20px;
+    padding: 7px 20px ;
+    border-radius: 5ch ;
+    border: 0ch solid silver;
+  }
+  .m-btns:hover{
+    background-color: gray;
+  }
+  .m-aside{
+    margin:0 10px;
+  }
+  .clr{
+    height: 0.1px;
+    background-color: #ccc;
+    border: none;
+  }
+  aside::-webkit-scrollbar {
+    width: 10px;
+    height: 30px;
+  }
+  aside::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
+
+
+   
+ 
+  
